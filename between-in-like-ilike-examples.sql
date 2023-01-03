@@ -14,5 +14,5 @@
 -- WHERE first_name LIKE 'Mar%' AND last_name LIKE 'S%'; -- % isareti ya herhangi bir karakter olmamasini ya da birden fazla karakter icin yer tutucu islevini gorur
 -- WHERE first_name LIKE 'J_a%'; -- tek bir karakteri tutmak icin ise _ isaretini kullaniyoruz.
 
--- SELECT * FROM actor
--- WHERE first_name ~~* 'ad%'; -- ~~ isareti LIKE yerine gecer. ~~* ILIKE'a esittir. ILIKE : buyuk kucuk sensivitysi bulunmamaktadir. !~~ yaptigimizda ise NOT koydugumuz anlamina gelir.
+SELECT * FROM actor
+WHERE first_name ~~* 'ad%'; -- ~~ isareti LIKE yerine gecer. ~~* ILIKE'a esittir. ILIKE : buyuk kucuk sensivitysi bulunmamaktadir. !~~ yaptigimizda ise NOT koydugumuz anlamina gelir.
